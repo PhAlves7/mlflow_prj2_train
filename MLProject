@@ -3,7 +3,7 @@ name: californian_housing_market
 
 docker_env:
   # Name of the image we'll be running a container from
-  image: mehdisemar2/mlflow3-mehdi
+  image: phadock38/mlflow-pha
   # Volume binding
   volumes: ["$(pwd):/home/user/app"]
   # Set environment variables
